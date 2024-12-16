@@ -121,7 +121,7 @@ if choice == 'Business Objective':
 elif choice == 'Hiển thị chart':
     st.subheader("Biểu đồ Heatmap")
     st.write("Lấy một phần nhỏ trong Cosine_sim, tương ứng với ma trận 18 x18. Gồm các giá trị liên quan đến 18 sản phẩm đầu tiên trong danh sách để trực quan hoá")
-    st.image('heatmap.png', use_container_width=True)
+    st.image('/mount/src/recommendation_system/product_recommendation-main/heatmap.png', use_container_width=True)
 
 elif choice == 'Build Project':
     st.subheader("Build Project")

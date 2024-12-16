@@ -4,4 +4,5 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-surprise
+scikit-surprise
+

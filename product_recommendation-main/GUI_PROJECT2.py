@@ -73,7 +73,7 @@ def recommendation_by_user(userId, df, df_products, algorithm):
     return df_score_with_images.head(5)
 
 # Tải dữ liệu
-df_hinh = pd.read_csv('Hinhanh.csv')
+df_hinh = pd.read_csv('/mount/src/recommendation_system/product_recommendation-main/Hinhanh.csv')
 df_products = pd.read_csv('San_pham_2xuly.csv')
 df_customers = pd.read_csv('Khach_hang_2xuly.csv')
 df = pd.read_csv('Danh_gia_final.csv')

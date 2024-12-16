@@ -116,7 +116,7 @@ if choice == 'Business Objective':
 
     Cả hai thuật toán này sẽ giúp hệ thống đưa ra những gợi ý chính xác và cá nhân hóa cho mỗi khách hàng, đồng thời giúp HASAKI.VN tối ưu hóa việc phân phối sản phẩm và tăng trưởng doanh thu.
 """)  
-    st.image("2.png")
+    st.image("/mount/src/recommendation_system/product_recommendation-main/2.png")
 
 elif choice == 'Hiển thị chart':
     st.subheader("Biểu đồ Heatmap")

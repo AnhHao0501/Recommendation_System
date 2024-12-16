@@ -89,7 +89,7 @@ limited_customers = df_customers.head(20)
 
 # Giao diện với Streamlit
 # Tiêu đề trang
-st.image('hasaki1.jpg', use_container_width=True)
+st.image('/mount/src/recommendation_system/product_recommendation-main/hasaki1.jpg', use_container_width=True)
 st.title("💎 Hệ thống gợi ý sản phẩm Recommender System 💎")
 
 # Menu ở sidebar
@@ -127,7 +127,7 @@ elif choice == 'Build Project':
     st.subheader("Build Project")
 
     # Ở đây sẽ hiển thị phần nội dung của Build Project
-    st.image('thuat_toan.jpg', use_container_width=True)  # Hiển thị ảnh banner
+    st.image('/mount/src/recommendation_system/product_recommendation-main/thuat_toan.jpg', use_container_width=True)  # Hiển thị ảnh banner
     st.write("### Recommendation System")
     st.write(""" 
     Hệ thống gợi ý tại Hasaki.vn được xây dựng dựa trên hai phương pháp chính:

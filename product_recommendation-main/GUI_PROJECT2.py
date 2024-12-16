@@ -79,9 +79,9 @@ df_customers = pd.read_csv('/mount/src/recommendation_system/product_recommendat
 df = pd.read_csv('/mount/src/recommendation_system/product_recommendation-main/Danh_gia_final.csv')
 
 # Tải mô hình
-with open('product_surprise.pkl', 'rb') as f:
+with open('/mount/src/recommendation_system/product_recommendation-main/product_surprise.pkl', 'rb') as f:
     algorithm_loaded = pickle.load(f)
-with open('products_cosine_sim.pkl', 'rb') as f:
+with open('/mount/src/recommendation_system/product_recommendation-main/products_cosine_sim.pkl', 'rb') as f:
     cosine_sim_new = pickle.load(f)
 
 limited_products = df_products.head(20)
